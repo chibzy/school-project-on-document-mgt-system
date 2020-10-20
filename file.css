@@ -1,0 +1,152 @@
+/* CSS Document */
+#body{
+	margin:0px;
+}
+#top_body{
+	background-color:#FCB40C;
+	padding:20px; 
+	border-bottom:#0F0 thick inset;
+}
+#logoimg{
+	float:left;
+	margin-right:15px;
+	background-repeat: no-repeat;
+}
+#top_msg{
+	font:Tahoma, Geneva, sans-serif; 
+	color:#FFF; 
+	font-size:50px; 
+	font-stretch:extra-expanded;
+}
+#page_body{
+	height:600px;
+	line-height:25px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:14px;
+}
+#top_bar{
+	background-image:url(imgs/menu.jpg); 
+	background-repeat:repeat-x; 
+	height:80px;
+}
+#base_cover{
+	background-color:#000; 
+	height:80px
+}
+#base_inner{
+	background-color:#FCB40C; 
+	height:30px
+}
+.btn{
+	border:none;
+	color:#FFF;
+	background-color:#FF8080;
+	padding:5px;
+}
+.txt{
+	border:thin solid #FF8000;
+	font:Verdana, Geneva, sans-serif;
+	font-size:13px;
+	padding:5px;
+}
+.instruction{
+	padding:10px;
+	background-color:#069;
+	color:#FFF;
+	line-height:15px;
+	font:"Times New Roman", Times, serif;
+	font-size:11px;
+	margin-bottom:20px;
+	margin-left:5px;
+	margin-right:20px;
+	//width:400px;
+}
+.table_header{
+	padding:10px;
+	//background-color:#FC0;
+	color:#999;
+	line-height:10px;
+	font:"Times New Roman", Times, serif;
+	font-size:14px;
+	margin-bottom:20px;
+	width:600px;
+}
+.table_body{
+	padding:10px;
+	background-color:#FFEDB7;
+	color:#FFF;
+	line-height:15px;
+	font:"Times New Roman", Times, serif;
+	font-size:10px;
+	margin-bottom:20px;
+	width:600px;
+	margin:0px;
+}
+.table_row{
+	background-color:#F93;
+	color:#FFF;
+}
+#err{
+	padding:10px;
+	background-color:#F00;
+	color:#FFF;
+	line-height:15px;
+	font:"Times New Roman", Times, serif;
+	font-size:10px;
+	margin-bottom:20px;
+	width:400px;
+}
+#alert{
+	padding:10px;
+	background-color:#0C0;
+	color:#FFF;
+	line-height:15px;
+	font:"Times New Roman", Times, serif;
+	font-size:10px;
+	margin-bottom:20px;
+	width:400px;	
+}
+/*/////////////////////////*/
+/*body{
+		font: 62.5% "Trebuchet MS", sans-serif;
+		margin: 50px;
+	}
+	.demoHeaders {
+		margin-top: 2em;
+	}
+	#dialog-link {
+		padding: .4em 1em .4em 20px;
+		text-decoration: none;
+		position: relative;
+	}
+	#dialog-link span.ui-icon {
+		margin: 0 5px 0 0;
+		position: absolute;
+		left: .2em;
+		top: 50%;
+		margin-top: -8px;
+	}
+	#icons {
+		margin: 0;
+		padding: 0;
+	}
+	#icons li {
+		margin: 2px;
+		position: relative;
+		padding: 4px 0;
+		cursor: pointer;
+		float: left;
+		list-style: none;
+	}
+	#icons span.ui-icon {
+		float: left;
+		margin: 0 4px;
+	}
+	.fakewindowcontain .ui-widget-overlay {
+		position: absolute;
+	}
+	select {
+		width: 200px;
+	}
+	*/
